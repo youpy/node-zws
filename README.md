@@ -12,6 +12,8 @@ var encoded = ZWS.encode('hello');
 console.log(encoded) //=> ""
 
 console.log(ZWS.decode(encoded)) //=> "hello"
+
+console.log(ZWS.decode(encoded + ' world')) //=> "hello world"
 ```
 
 ## Installation
