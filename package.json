@@ -16,7 +16,7 @@
      "mocha"  : "*"
   },
   "optionalDependencies": {},
-  "description": "decode/encode text using zero width spaces",
+  "description": "a library encode/decode text using zero width spaces",
   "scripts": {
     "test": "mocha"
   }

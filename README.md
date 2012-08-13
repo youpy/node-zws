@@ -1,6 +1,6 @@
 # ZWS.js
 
-ZWS is a library to decode/encode text using zero width spaces.
+ZWS is a library to encode/decode text using zero width spaces.
 
 ## Synopsis
 
