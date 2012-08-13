@@ -28,4 +28,12 @@ describe('ZWS', function() {
 
     done();
   });
+
+  it('should detect whether given text has encoded part', function(done) {
+    ZWS.isEncoded('hello').should.not.be.true;
+    ZWS.isEncoded(ZWS.encode('hello')).should.be.true;
+    ZWS.isEncoded('aaa' + ZWS.encode('hello') + 'bbb').should.be.true;
+
+    done();
+  });
 });
