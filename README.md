@@ -11,3 +11,7 @@ console.log(encoded) //=> ""
 
 console.log(ZWS.decode(encoded)) //=> "hello"
 ```
+
+## Installation
+
+    npm install zws
