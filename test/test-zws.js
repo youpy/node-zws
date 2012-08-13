@@ -24,7 +24,7 @@ describe('ZWS', function() {
   it('should decode mixed text', function(done) {
     var encoded = ZWS.encode('hello');
 
-    ZWS.decode(encoded + ' world').should.eql('hello world');
+    ZWS.decode(encoded + ' world ' + encoded).should.eql('hello world hello');
 
     done();
   });
