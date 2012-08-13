@@ -1,0 +1,20 @@
+{
+  "author": "youpy <youpy@buycheapviagraonlinenow.com>",
+  "name": "zws",
+  "version": "0.0.1",
+  "homepage": "https://github.com/youpy/node-zws",
+  "repository": {
+    "url": ""
+  },
+  "main": "index",
+  "engines": {
+    "node": "~0.6.6"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "description": "decode/encode text using zero width spaces",
+  "scripts": {
+    "test": "mocha"
+  }
+}
