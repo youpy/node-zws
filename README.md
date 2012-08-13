@@ -2,6 +2,8 @@
 
 ZWS is a library to encode/decode text using zero width spaces.
 
+Inspired by [ucnv](https://twitter.com/ucnv/)'s [tweet](https://twitter.com/ucnv/status/234693886218498048).
+
 ## Synopsis
 
 ```js
