@@ -23,3 +23,4 @@ console.log(ZWS.decode(encoded + ' world')) //=> "hello world"
 ## See also
 
 - http://d.hatena.ne.jp/kazuhooku/20080828/1219913655
+- http://search.cpan.org/dist/Convert-BaseN/
